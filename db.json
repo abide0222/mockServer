@@ -1,6 +1,5 @@
 {
     "school": {
-        "refCnt": "mockRefCnt01",
         "CGU": {
             "semester": {
                 "107": {
@@ -74,5 +73,10 @@
         },
         "NCTU": {
         }
+    },
+    "server": {
+        "CGU": "finish",
+        "NCTU": "finish",
+        "All": "finish"
     }
 }
