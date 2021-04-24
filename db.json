@@ -1,6 +1,7 @@
+
 {
     "school": {
-        "cgu": {
+        "CGU": {
             "semester": {
                 "107": {
                     "department": {
@@ -71,7 +72,7 @@
                 }
             }
         },
-        "nctu": {
+        "NCTU": {
         }
     }
 }
