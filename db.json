@@ -1,82 +1,70 @@
 {
-    "school": {
-        "CGU": {
-            "semester": {
-                "107": {
-                    "department": {
-                        "04": {
-                            "course": {
-                                "001": {
-                                    "teacher": "t04a001"
-                                }
-                            }
-                        },
-                        "29": {
-                            "course": {
-                                "001": {
-                                    "teacher": "t29a001"
-                                },
-                                "002": {
-                                    "teacher": "t29a001"
-                                }
-                            }
-                        }
-                    }
-                },
-                "108": {
-                }
+    "user": {
+        "list": {
+            "A0000000": {
+                "name": "張豪豪",
+                "email": "a@gmail.com",
+                "description": "bruce只會汪汪叫吼"
             },
-            "course": {
-                "number": {
-                    "0304": "40"
-                },
-                "list": {
-                    "c0304001": {
-                        "name": "basicMed"
-                    },
-                    "c0329001": {
-                        "name": "operationSystem"
-                    },
-                    "c0329002": {
-                        "name": "computerArchitecture"
-                    }
-                }
+            "A0000001": {
+                "name": "Yar",
+                "email": "b@gmail.com",
+                "description": "哦嗨鴨"
             },
-            "student": {
-                "number": {
-                    "0329": "62"
-                },
-                "list": {
-                    "b0329062": {
-                        "name": "Shun-Hao,Chang",
-                        "course": ["c0329001"]
-                    }
-                }
-            },
-            "teacher": {
-                "number": {
-                    "04": "1",
-                    "29": "1"
-                },
-                "list": {
-                    "t04a001": {
-                        "name": "Yang-Pin,Ou",
-                        "course": ["c0304001"]
-                    },
-                    "t29a001": {
-                        "name": "Che-Wei,Chang",
-                        "course": ["c0329001", "c0329002"],
-                        "resign": false
-                    }
-                }
+            "Z9999999": {
+                "name": "外勞",
+                "email": "c@gmail.com",
+                "description": "汪汪"
             }
-        },
-        "NCTU": {
         }
     },
-    "server": {
-        "CGU": "finish",
-        "NCTU": "finish",
-        "All": "finish"
+    "restaurant": {
+        "number": {
+            "F": "2",
+            "H": "1"
+        },
+        "list": {
+            "F000000": {
+                "name": "八方雲集",
+                "description": "鍋蓋王"
+            },
+            "F000001": {
+                "name": "可不可熟成紅茶",
+                "description": "69"
+            },
+            "H000001": {
+                "name": "外勞ㄟ店",
+                "description": "嗨鴨"
+            }
+        }
+    },
+    "food": {
+        "number": {
+            "A000000": "3",
+            "B000001": "1",
+            "C999999": "1"
+        },
+        "list": {
+            "A0000000000": {
+                "name": "apple",
+                "price": "20"
+            },
+            "A0000000001": {
+                "name": "banana",
+                "price": "15"
+            },
+            "A0000000002": {
+                "name": "Coconut",
+                "price": "10"
+            },
+            "B0000010000": {
+                "name": "duck",
+                "price": "2"
+            },
+            "C9999990000": {
+                "name": "yar",
+                "price": "1"
+            }
+        }
     }
 }
