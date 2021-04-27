@@ -1,0 +1,46 @@
+{
+    "course": {
+        "number": {
+            "0304": "40"
+        },
+        "list": {
+            "c0304001": {
+                "name": "basicMed"
+            },
+            "c0329001": {
+                "name": "operationSystem"
+            },
+            "c0329002": {
+                "name": "computerArchitecture"
+            }
+        }
+    },
+    "student": {
+        "number": {
+            "0329": "62"
+        },
+        "list": {
+            "b0329062": {
+                "name": "Shun-Hao,Chang",
+                "course": ["c0329001"]
+            }
+        }
+    },
+    "teacher": {
+        "number": {
+            "04": "1",
+            "29": "1"
+        },
+        "list": {
+            "t04a001": {
+                "name": "Yang-Pin,Ou",
+                "course": ["c0304001"]
+            },
+            "t29a001": {
+                "name": "Che-Wei,Chang",
+                "course": ["c0329001", "c0329002"],
+                "resign": false
+            }
+        }
+    }
+}

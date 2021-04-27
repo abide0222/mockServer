@@ -1,3 +1,11 @@
 {
-    "status": "finish"
+    "All": "finish",
+    "CGU": {
+    	"schoolId": "CGU",
+    	"status": "finish"
+    },
+    "NCTU": {
+    	"schoolId": "NCTU",
+    	"status": "finish"
+    }
 }
